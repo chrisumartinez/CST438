@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    div
+    
+    h1 #{tweet}
+    h2 Author: #{author}
+    h3 <a href=#{tweetURL}>Link to Tweet</a> 
+    style(type='text/css').
+           body {
+                background: url('!{imgURL}');
+                background-size: cover;
+                background-repeat: no-repeat; 
+                height: 300px;
+            }
